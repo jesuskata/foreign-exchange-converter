@@ -14,6 +14,8 @@
 
 @implementation ViewController
 
+const float dllPrice = 20.3937;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -27,12 +29,12 @@
 
 
 - (IBAction)convertButton:(UIButton *)sender {
-    float dllPrice = 20.3937;
     // This is the largest way to resolve this program
-    /* float dllValue = [self.mxnMoney.text floatValue];
-    float mxnConvert = dllValue * dllPrice; */
+    float dllValue = [self.mxnMoney.text floatValue];
+    float mxnConvert = dllValue * dllPrice;
     
     // This is the shortest way to resolve this program
-    [self.dllResult setText:[NSString stringWithFormat:@"The result: $ %f pesos", [self.mxnMoney.text floatValue] * dllPrice]];
+    [self.dllResult setText:[NSString stringWithFormat:@"$ %.2f MXN = $ %.2f DLL", dllValue, mxnConvert]];
+    self.dllResult.hidden = NO;
 }
 @end
