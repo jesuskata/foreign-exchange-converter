@@ -14,7 +14,9 @@
 
 @implementation ViewController
 
-const float dllPrice = 20.3937;
+const float dllToMxn = 20.3937;
+const float dllToEur = 0.8622;
+const float dllToCol = 2898.5507;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -29,12 +31,26 @@ const float dllPrice = 20.3937;
 
 
 - (IBAction)convertButton:(UIButton *)sender {
-    // This is the largest way to resolve this program
     float dllValue = [self.mxnMoney.text floatValue];
-    float mxnConvert = dllValue * dllPrice;
+    float mxnConvert = dllValue * dllToMxn;
     
-    // This is the shortest way to resolve this program
-    [self.dllResult setText:[NSString stringWithFormat:@"$ %.2f MXN = $ %.2f DLL", dllValue, mxnConvert]];
+    [self.dllResult setText:[NSString stringWithFormat:@"$ %.2f DLL = $ %.2f MXN", dllValue, mxnConvert]];
+    self.dllResult.hidden = NO;
+}
+
+- (IBAction)dllToEurButton:(UIButton *)sender {
+    float dllValue = [self.mxnMoney.text floatValue];
+    float eurConvert = dllValue * dllToEur;
+    
+    [self.dllResult setText:[NSString stringWithFormat:@"$ %.2f DLL = $ %.2f EUR", dllValue, eurConvert]];
+    self.dllResult.hidden = NO;
+}
+
+- (IBAction)dllToColButton:(UIButton *)sender {
+    float dllValue = [self.mxnMoney.text floatValue];
+    float colConvert = dllValue * dllToCol;
+    
+    [self.dllResult setText:[NSString stringWithFormat:@"$ %.2f DLL = $ %.2f COL", dllValue, colConvert]];
     self.dllResult.hidden = NO;
 }
 @end

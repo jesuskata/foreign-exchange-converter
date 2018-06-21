@@ -14,6 +14,8 @@
 @property (strong, nonatomic) IBOutlet UILabel *dllResult;
 
 - (IBAction)convertButton:(UIButton *)sender;
+- (IBAction)dllToEurButton:(UIButton *)sender;
+- (IBAction)dllToColButton:(UIButton *)sender;
 
 @end
 
