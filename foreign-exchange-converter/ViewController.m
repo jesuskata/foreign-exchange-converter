@@ -28,9 +28,11 @@
 
 - (IBAction)convertButton:(UIButton *)sender {
     float dllPrice = 20.3937;
-    float dllValue = [self.mxnMoney.text floatValue];
-    float mxnConvert = dllValue * dllPrice;
+    // This is the largest way to resolve this program
+    /* float dllValue = [self.mxnMoney.text floatValue];
+    float mxnConvert = dllValue * dllPrice; */
     
-    [self.dllResult setText:[NSString stringWithFormat:@"The result: $ %f pesos", mxnConvert]];
+    // This is the shortest way to resolve this program
+    [self.dllResult setText:[NSString stringWithFormat:@"The result: $ %f pesos", [self.mxnMoney.text floatValue] * dllPrice]];
 }
 @end
