@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66E8A8FA20DBFD8D0023719D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E8A8F920DBFD8D0023719D /* AppDelegate.m */; };
+		66E8A8FD20DBFD8D0023719D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E8A8FC20DBFD8D0023719D /* ViewController.m */; };
+		66E8A90020DBFD8D0023719D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E8A8FE20DBFD8D0023719D /* Main.storyboard */; };
+		66E8A90220DBFD8E0023719D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66E8A90120DBFD8E0023719D /* Assets.xcassets */; };
+		66E8A90520DBFD8E0023719D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E8A90320DBFD8E0023719D /* LaunchScreen.storyboard */; };
+		66E8A90820DBFD8E0023719D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E8A90720DBFD8E0023719D /* main.m */; };
+		66E8A91220DBFD8E0023719D /* foreign_exchange_converterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E8A91120DBFD8E0023719D /* foreign_exchange_converterTests.m */; };
+		66E8A91D20DBFD8F0023719D /* foreign_exchange_converterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E8A91C20DBFD8F0023719D /* foreign_exchange_converterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66E8A90E20DBFD8E0023719D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66E8A8ED20DBFD8D0023719D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66E8A8F420DBFD8D0023719D;
+			remoteInfo = "foreign-exchange-converter";
+		};
+		66E8A91920DBFD8F0023719D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66E8A8ED20DBFD8D0023719D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66E8A8F420DBFD8D0023719D;
+			remoteInfo = "foreign-exchange-converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66E8A8F520DBFD8D0023719D /* foreign-exchange-converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "foreign-exchange-converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66E8A8F820DBFD8D0023719D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66E8A8F920DBFD8D0023719D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66E8A8FB20DBFD8D0023719D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66E8A8FC20DBFD8D0023719D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66E8A8FF20DBFD8D0023719D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66E8A90120DBFD8E0023719D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66E8A90420DBFD8E0023719D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66E8A90620DBFD8E0023719D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66E8A90720DBFD8E0023719D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66E8A90D20DBFD8E0023719D /* foreign-exchange-converterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "foreign-exchange-converterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66E8A91120DBFD8E0023719D /* foreign_exchange_converterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = foreign_exchange_converterTests.m; sourceTree = "<group>"; };
+		66E8A91320DBFD8E0023719D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66E8A91820DBFD8F0023719D /* foreign-exchange-converterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "foreign-exchange-converterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66E8A91C20DBFD8F0023719D /* foreign_exchange_converterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = foreign_exchange_converterUITests.m; sourceTree = "<group>"; };
+		66E8A91E20DBFD8F0023719D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66E8A8F220DBFD8D0023719D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E8A90A20DBFD8E0023719D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E8A91520DBFD8F0023719D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66E8A8EC20DBFD8D0023719D = {
+			isa = PBXGroup;
+			children = (
+				66E8A8F720DBFD8D0023719D /* foreign-exchange-converter */,
+				66E8A91020DBFD8E0023719D /* foreign-exchange-converterTests */,
+				66E8A91B20DBFD8F0023719D /* foreign-exchange-converterUITests */,
+				66E8A8F620DBFD8D0023719D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66E8A8F620DBFD8D0023719D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66E8A8F520DBFD8D0023719D /* foreign-exchange-converter.app */,
+				66E8A90D20DBFD8E0023719D /* foreign-exchange-converterTests.xctest */,
+				66E8A91820DBFD8F0023719D /* foreign-exchange-converterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66E8A8F720DBFD8D0023719D /* foreign-exchange-converter */ = {
+			isa = PBXGroup;
+			children = (
+				66E8A8F820DBFD8D0023719D /* AppDelegate.h */,
+				66E8A8F920DBFD8D0023719D /* AppDelegate.m */,
+				66E8A8FB20DBFD8D0023719D /* ViewController.h */,
+				66E8A8FC20DBFD8D0023719D /* ViewController.m */,
+				66E8A8FE20DBFD8D0023719D /* Main.storyboard */,
+				66E8A90120DBFD8E0023719D /* Assets.xcassets */,
+				66E8A90320DBFD8E0023719D /* LaunchScreen.storyboard */,
+				66E8A90620DBFD8E0023719D /* Info.plist */,
+				66E8A90720DBFD8E0023719D /* main.m */,
+			);
+			path = "foreign-exchange-converter";
+			sourceTree = "<group>";
+		};
+		66E8A91020DBFD8E0023719D /* foreign-exchange-converterTests */ = {
+			isa = PBXGroup;
+			children = (
+				66E8A91120DBFD8E0023719D /* foreign_exchange_converterTests.m */,
+				66E8A91320DBFD8E0023719D /* Info.plist */,
+			);
+			path = "foreign-exchange-converterTests";
+			sourceTree = "<group>";
+		};
+		66E8A91B20DBFD8F0023719D /* foreign-exchange-converterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66E8A91C20DBFD8F0023719D /* foreign_exchange_converterUITests.m */,
+				66E8A91E20DBFD8F0023719D /* Info.plist */,
+			);
+			path = "foreign-exchange-converterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66E8A8F420DBFD8D0023719D /* foreign-exchange-converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66E8A92120DBFD8F0023719D /* Build configuration list for PBXNativeTarget "foreign-exchange-converter" */;
+			buildPhases = (
+				66E8A8F120DBFD8D0023719D /* Sources */,
+				66E8A8F220DBFD8D0023719D /* Frameworks */,
+				66E8A8F320DBFD8D0023719D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "foreign-exchange-converter";
+			productName = "foreign-exchange-converter";
+			productReference = 66E8A8F520DBFD8D0023719D /* foreign-exchange-converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66E8A90C20DBFD8E0023719D /* foreign-exchange-converterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66E8A92420DBFD8F0023719D /* Build configuration list for PBXNativeTarget "foreign-exchange-converterTests" */;
+			buildPhases = (
+				66E8A90920DBFD8E0023719D /* Sources */,
+				66E8A90A20DBFD8E0023719D /* Frameworks */,
+				66E8A90B20DBFD8E0023719D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66E8A90F20DBFD8E0023719D /* PBXTargetDependency */,
+			);
+			name = "foreign-exchange-converterTests";
+			productName = "foreign-exchange-converterTests";
+			productReference = 66E8A90D20DBFD8E0023719D /* foreign-exchange-converterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66E8A91720DBFD8F0023719D /* foreign-exchange-converterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66E8A92720DBFD8F0023719D /* Build configuration list for PBXNativeTarget "foreign-exchange-converterUITests" */;
+			buildPhases = (
+				66E8A91420DBFD8F0023719D /* Sources */,
+				66E8A91520DBFD8F0023719D /* Frameworks */,
+				66E8A91620DBFD8F0023719D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66E8A91A20DBFD8F0023719D /* PBXTargetDependency */,
+			);
+			name = "foreign-exchange-converterUITests";
+			productName = "foreign-exchange-converterUITests";
+			productReference = 66E8A91820DBFD8F0023719D /* foreign-exchange-converterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66E8A8ED20DBFD8D0023719D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Jesús Alejandro Romero Zárate";
+				TargetAttributes = {
+					66E8A8F420DBFD8D0023719D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					66E8A90C20DBFD8E0023719D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 66E8A8F420DBFD8D0023719D;
+					};
+					66E8A91720DBFD8F0023719D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 66E8A8F420DBFD8D0023719D;
+					};
+				};
+			};
+			buildConfigurationList = 66E8A8F020DBFD8D0023719D /* Build configuration list for PBXProject "foreign-exchange-converter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66E8A8EC20DBFD8D0023719D;
+			productRefGroup = 66E8A8F620DBFD8D0023719D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66E8A8F420DBFD8D0023719D /* foreign-exchange-converter */,
+				66E8A90C20DBFD8E0023719D /* foreign-exchange-converterTests */,
+				66E8A91720DBFD8F0023719D /* foreign-exchange-converterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66E8A8F320DBFD8D0023719D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E8A90520DBFD8E0023719D /* LaunchScreen.storyboard in Resources */,
+				66E8A90220DBFD8E0023719D /* Assets.xcassets in Resources */,
+				66E8A90020DBFD8D0023719D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E8A90B20DBFD8E0023719D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E8A91620DBFD8F0023719D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66E8A8F120DBFD8D0023719D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E8A8FD20DBFD8D0023719D /* ViewController.m in Sources */,
+				66E8A90820DBFD8E0023719D /* main.m in Sources */,
+				66E8A8FA20DBFD8D0023719D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E8A90920DBFD8E0023719D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E8A91220DBFD8E0023719D /* foreign_exchange_converterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E8A91420DBFD8F0023719D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E8A91D20DBFD8F0023719D /* foreign_exchange_converterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66E8A90F20DBFD8E0023719D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66E8A8F420DBFD8D0023719D /* foreign-exchange-converter */;
+			targetProxy = 66E8A90E20DBFD8E0023719D /* PBXContainerItemProxy */;
+		};
+		66E8A91A20DBFD8F0023719D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66E8A8F420DBFD8D0023719D /* foreign-exchange-converter */;
+			targetProxy = 66E8A91920DBFD8F0023719D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66E8A8FE20DBFD8D0023719D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66E8A8FF20DBFD8D0023719D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66E8A90320DBFD8E0023719D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66E8A90420DBFD8E0023719D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66E8A91F20DBFD8F0023719D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66E8A92020DBFD8F0023719D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66E8A92220DBFD8F0023719D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "foreign-exchange-converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jesuskata.com.foreign-exchange-converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66E8A92320DBFD8F0023719D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "foreign-exchange-converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jesuskata.com.foreign-exchange-converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66E8A92520DBFD8F0023719D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "foreign-exchange-converterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jesuskata.com.foreign-exchange-converterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/foreign-exchange-converter.app/foreign-exchange-converter";
+			};
+			name = Debug;
+		};
+		66E8A92620DBFD8F0023719D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "foreign-exchange-converterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jesuskata.com.foreign-exchange-converterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/foreign-exchange-converter.app/foreign-exchange-converter";
+			};
+			name = Release;
+		};
+		66E8A92820DBFD8F0023719D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "foreign-exchange-converterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jesuskata.com.foreign-exchange-converterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "foreign-exchange-converter";
+			};
+			name = Debug;
+		};
+		66E8A92920DBFD8F0023719D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "foreign-exchange-converterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jesuskata.com.foreign-exchange-converterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "foreign-exchange-converter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66E8A8F020DBFD8D0023719D /* Build configuration list for PBXProject "foreign-exchange-converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E8A91F20DBFD8F0023719D /* Debug */,
+				66E8A92020DBFD8F0023719D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66E8A92120DBFD8F0023719D /* Build configuration list for PBXNativeTarget "foreign-exchange-converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E8A92220DBFD8F0023719D /* Debug */,
+				66E8A92320DBFD8F0023719D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66E8A92420DBFD8F0023719D /* Build configuration list for PBXNativeTarget "foreign-exchange-converterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E8A92520DBFD8F0023719D /* Debug */,
+				66E8A92620DBFD8F0023719D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66E8A92720DBFD8F0023719D /* Build configuration list for PBXNativeTarget "foreign-exchange-converterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E8A92820DBFD8F0023719D /* Debug */,
+				66E8A92920DBFD8F0023719D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66E8A8ED20DBFD8D0023719D /* Project object */;
+}
